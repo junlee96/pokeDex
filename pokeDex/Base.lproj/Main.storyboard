@@ -29,23 +29,38 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="VFE-bO-pKQ">
                                 <rect key="frame" x="0.0" y="74" width="600" height="526"/>
                             </imageView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Aig-qW-nab">
+                                <rect key="frame" x="0.0" y="74" width="600" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oOY-Hd-k0d">
+                                <rect key="frame" x="20" y="138" width="560" height="442"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="VFE-bO-pKQ" secondAttribute="trailing" id="9yq-R2-poY"/>
                             <constraint firstItem="VFE-bO-pKQ" firstAttribute="top" secondItem="Sbd-c4-Xrg" secondAttribute="bottom" id="AWP-Y3-zad"/>
+                            <constraint firstItem="oOY-Hd-k0d" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="BLe-HN-knY"/>
                             <constraint firstItem="VFE-bO-pKQ" firstAttribute="top" secondItem="Sbd-c4-Xrg" secondAttribute="bottom" constant="3" id="DnP-F7-2X0"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VFE-bO-pKQ" secondAttribute="bottom" id="Lnq-xa-Wg1"/>
                             <constraint firstItem="Sbd-c4-Xrg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="M64-95-KxC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oOY-Hd-k0d" secondAttribute="bottom" constant="20" id="MFu-sJ-yFe"/>
+                            <constraint firstItem="Aig-qW-nab" firstAttribute="top" secondItem="Sbd-c4-Xrg" secondAttribute="bottom" constant="1" id="PKQ-Yd-YMf"/>
                             <constraint firstItem="VFE-bO-pKQ" firstAttribute="top" secondItem="Sbd-c4-Xrg" secondAttribute="bottom" id="Qba-cE-X1T"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Sbd-c4-Xrg" secondAttribute="trailing" constant="-20" id="Ysj-Fc-ugm"/>
                             <constraint firstItem="VFE-bO-pKQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="ZC3-QN-FTk"/>
+                            <constraint firstItem="oOY-Hd-k0d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="aJv-Kd-B6W"/>
+                            <constraint firstAttribute="trailing" secondItem="Aig-qW-nab" secondAttribute="trailing" id="ari-Bh-0Sa"/>
                             <constraint firstItem="Sbd-c4-Xrg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="boI-La-Qdc"/>
                             <constraint firstItem="VFE-bO-pKQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="h2f-zU-7C6"/>
                             <constraint firstItem="VFE-bO-pKQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="l9Q-8g-HAT"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VFE-bO-pKQ" secondAttribute="bottom" id="lCm-Cl-k5G"/>
                             <constraint firstAttribute="trailingMargin" secondItem="VFE-bO-pKQ" secondAttribute="trailing" constant="-20" id="lFi-cy-7vk"/>
+                            <constraint firstItem="Aig-qW-nab" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="luq-SV-pLB"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VFE-bO-pKQ" secondAttribute="bottom" id="mkY-lf-uzM"/>
+                            <constraint firstItem="oOY-Hd-k0d" firstAttribute="top" secondItem="Aig-qW-nab" secondAttribute="bottom" constant="20" id="uvv-1X-NoR"/>
                             <constraint firstAttribute="trailing" secondItem="VFE-bO-pKQ" secondAttribute="trailing" id="yYT-gI-tef"/>
                         </constraints>
                     </view>
